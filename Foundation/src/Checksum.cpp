@@ -15,7 +15,7 @@
 
 
 #include "Poco/Checksum.h"
-#if defined(POCO_UNBUNDLED)
+#if defined(POCO_UNBUNDLED_PCRE)
 #include <zlib.h>
 #else
 #include "Poco/zlib.h"
